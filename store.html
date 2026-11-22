@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WiFiKeep 24/7 — Auto Wi-Fi Hotspot for Windows, Firefox &amp; Edge ($20 Pro Lifetime)</title>
+  <style>
+    body { font-family: "Segoe UI", system-ui, sans-serif; background: #0b1120; color: #f8fafc; margin: 0; padding: 36px 16px 64px; line-height: 1.62; }
+    .wrap { max-width: 960px; margin: 0 auto; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; border-bottom: 1px solid #1e293b; padding-bottom: 14px; }
+    .brand { font-size: 20px; font-weight: 900; color: #34d399; text-decoration: none; }
+    .lang-sel { background: #1e293b; color: #f8fafc; border: 1px solid #334155; padding: 7px 12px; border-radius: 8px; font-weight: 600; }
+    .hero { text-align: center; margin-bottom: 30px; }
+    .hero h1 { font-size: 32px; margin-bottom: 8px; color: #6ee7b7; }
+    .dl-card { background: #1e293b; border: 1px solid #10b981; border-radius: 16px; padding: 22px; text-align: center; margin-bottom: 30px; }
+    .dl-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 22px; margin-bottom: 32px; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 16px; padding: 24px; }
+    .card.pro { border: 2px solid #10b981; background: linear-gradient(180deg, #064e3b 0%, #1e293b 100%); }
+    .price { font-size: 34px; font-weight: 900; color: #34d399; margin: 8px 0; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 12px 18px; border-radius: 9px; font-weight: 700; text-decoration: none; cursor: pointer; border: none; }
+    .btn-emerald { background: #10b981; color: #ffffff; width: 100%; box-sizing: border-box; margin-top: 10px; }
+    .btn-dl { background: #10b981; color: #042f2e; }
+    .btn-sec { background: #0f172a; color: #e2e8f0; border: 1px solid #475569; }
+    .info-box { background: #0f172a; border: 1px solid #1e293b; border-radius: 14px; padding: 22px; margin-top: 20px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; padding: 8px; border-bottom: 1px solid #1e293b; }
+    th { width: 34%; color: #94a3b8; }
+    code { background: #1e293b; padding: 2px 6px; border-radius: 4px; color: #fde68a; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <a class="brand" href="store.html">📡 WiFiKeep 24/7</a>
+      <select id="langSel" class="lang-sel">
+        <option value="vi">🇻🇳 Tiếng Việt</option>
+        <option value="en">🇺🇸 English</option>
+        <option value="ja">🇯🇵 日本語</option>
+      </select>
+    </div>
+
+    <div class="hero">
+      <h1 id="tHeroTitle">Phát &amp; Duy Trì Wi-Fi Hotspot 24/24 (Windows · Firefox · Edge)</h1>
+      <p id="tHeroSub" style="color:#cbd5e1;">Tự động khôi phục sóng sau 3 giây • Chống máy tự Sleep • Điều khiển trên thanh công cụ Firefox &amp; Edge • Đầy đủ 100 Ngôn ngữ</p>
+    </div>
+
+    <div class="dl-card" id="download">
+      <h3 id="tDlTitle" style="margin:0 0 6px; color:#6ee7b7;">📥 Tải Miễn Phí Bộ Cài Đặt Cho Windows 10 / 11 (64-bit)</h3>
+      <div class="dl-btns">
+        <a class="btn btn-dl" href="https://github.com/supporthotro/wifikey24-privacy/releases/latest" target="_blank" rel="noopener">⬇️ Tải WiFiKeep24_Setup.exe</a>
+        <a class="btn btn-sec" href="index.html">🔒 Privacy Policy</a>
+      </div>
+      <p id="tSmartScreen" style="font-size:13px; color:#94a3b8; margin:12px 0 0;">💡 Lưu ý lần đầu mở trên Windows: nếu hiện hộp thoại xanh "Windows protected your PC", hãy bấm <strong>More info</strong> → <strong>Run anyway</strong>.</p>
+    </div>
+
+    <div class="grid" id="pricing">
+      <div class="card">
+        <h2 id="tFreeName">🎁 Miễn Phí 3 Tháng Đầu</h2>
+        <div class="price">$0 <small style="font-size:15px; color:#94a3b8;">/ 90 ngày đầu</small></div>
+        <ul>
+          <li id="tF1">Sử dụng 100% tính năng canh phát &amp; tự bật lại Wi-Fi 24/24 suốt 90 ngày</li>
+          <li id="tF2">Điều khiển trên thanh công cụ Mozilla Firefox, Microsoft Edge &amp; Chrome</li>
+          <li id="tF3">Quét mã QR kết nối Wi-Fi tức thì &amp; hiển thị đầy đủ 100 ngôn ngữ</li>
+          <li id="tF4">Sau 3 tháng nếu không nâng cấp: tự động khôi phục Hotspot, Sleep &amp; Khởi động máy về trạng thái ban đầu</li>
+        </ul>
+      </div>
+
+      <div class="card pro">
+        <h2 id="tProName">👑 Gói Pro Trọn Đời (Lifetime)</h2>
+        <div class="price">$20 USD <small style="font-size:15px; color:#a7f3d0;">mua 1 lần duy nhất</small></div>
+        <ul>
+          <li id="tP1">Mở khóa vĩnh viễn trọn đời — Không thu phí thuê bao hàng tháng</li>
+          <li id="tP2">Miễn phí trọn đời mọi bản cập nhật mới (kích hoạt tối đa 3 máy PC)</li>
+          <li id="tP3">Nhận tiền xong tự động cấp ngay Mã Bản Quyền 24/7 trên màn hình &amp; Email</li>
+        </ul>
+        <a id="btnCheckout" class="btn btn-emerald" href="https://thienflare.gumroad.com/l/wifikey24?wanted=true" target="_blank" rel="noopener">💳 Mua Pro Trọn Đời — $20 USD (Thẻ Quốc Tế / Apple Pay / PayPal — Giao Key Tự Động 24/7)</a>
+      </div>
+    </div>
+
+    <div class="info-box" id="tokushoho">
+      <h3 style="margin-top:0; color:#34d399;">📧 Thông Tin Nhà Phát Triển / Seller Information / 特定商取引法に基づく表記</h3>
+      <table>
+        <tr><th>Nhà phát triển / Seller / 販売事業者</th><td>WiFiKeep Official (<code>support.hotro</code>)</td></tr>
+        <tr><th>Người phụ trách / Responsible Person</th><td>Disclosed without delay upon valid request / 請求があった場合には遅滞なく開示いたします</td></tr>
+        <tr><th>Địa chỉ &amp; Điện thoại / Address &amp; Phone</th><td>Disclosed upon valid request (Email support only) / 請求があった場合には遅滞なく開示いたします（サポートはメールのみ）</td></tr>
+        <tr><th>Liên hệ / Contact / お問い合わせ</th><td><a href="mailto:support.hotro@gmail.com" style="color:#34d399;">support.hotro@gmail.com</a></td></tr>
+        <tr><th>Giá bán / Price / 販売価格</th><td>Free 3 Months ($0) • Pro Lifetime $20 USD (One-time / 買い切り)</td></tr>
+        <tr><th>Bàn giao / Delivery / 引渡時期</th><td>Instant 24/7 automatic license key delivery upon payment / 決済完了後、即時自動発行</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const DICT = {
+      vi: {
+        tHeroTitle: "Phát & Duy Trì Wi-Fi Hotspot 24/24 (Windows · Firefox · Edge)",
+        tHeroSub: "Tự động khôi phục sóng sau 3 giây • Chống máy tự Sleep • Điều khiển trên thanh công cụ Firefox & Edge • Đầy đủ 100 Ngôn ngữ",
+        tFreeName: "🎁 Miễn Phí 3 Tháng Đầu",
+        tProName: "👑 Gói Pro Trọn Đời (Lifetime)",
+        btnCheckout: "💳 Mua Pro Trọn Đời — $20 USD (Giao Key Tự Động 24/7)"
+      },
+      en: {
+        tHeroTitle: "24/7 Auto Wi-Fi Hotspot for Windows, Firefox & Edge",
+        tHeroSub: "Auto-recover in 3 seconds • Prevent PC Sleep • Toolbar Add-on for Firefox & Edge • All 100 World Languages",
+        tFreeName: "🎁 First 3 Months Free",
+        tProName: "👑 Pro Lifetime ($20 One-Time)",
+        btnCheckout: "💳 Buy Pro Lifetime — $20 USD (Instant 24/7 Auto-Key)"
+      },
+      ja: {
+        tHeroTitle: "Windows・Firefox・Edge 対応 24/7 自動 Wi-Fi ホットスポット",
+        tHeroSub: "3秒で自動復旧 • スリープ防止 • Firefox & Edge ツールバー拡張 • 全100言語フル対応",
+        tFreeName: "🎁 最初の3か月間無料",
+        tProName: "👑 Pro ライフタイム（$20 買い切り）",
+        btnCheckout: "💳 Pro ライフタイムを購入 — $20 USD（24時間自動キー発行）"
+      }
+    };
+    const sel = document.getElementById("langSel");
+    function setLang(c) {
+      const d = DICT[c] || DICT.en;
+      for (const [id, txt] of Object.entries(d)) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = txt;
+      }
+    }
+    sel.addEventListener("change", (e) => setLang(e.target.value));
+    const nav = (navigator.language || "vi").slice(0, 2);
+    if (DICT[nav]) { sel.value = nav; setLang(nav); }
+
+    fetch("gumroad-config.json", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((cfg) => {
+        const url = cfg.stripePaymentLink || cfg.checkoutUrl || cfg.gumroadCheckoutUrl;
+        if (url && url.startsWith("https://")) {
+          document.getElementById("btnCheckout").href = url;
+        }
+      })
+      .catch(() => {});
+  </script>
+</body>
+</html>
